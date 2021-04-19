@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCity</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --el-color: #333;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  a,
+  p {
+    color: var(--el-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #000;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 300;
+
+  }
+
+  .m-t {
+    margin-top: 150px;
+  }
+
+  .m-b {
+    margin-bottom: 100%;
+  }
+
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Header Section */
+  nav {
+    height: 100px;
+  }
+
+  nav h2 {
+    float: left;
+    display: inline;
+    line-height: 100px;
+  }
+
+  nav ul {
+    float: right;
+    line-height: 100px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+
+  nav ul li a {
+    text-transform: uppercase;
+  }
+
+  .active {
+    background-color: #eb7620;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color: #fff;
+  }
+
+  /* Showcase Area */
+  .showcase {
+    background-image: url('office.jpg');
+    height: 700px;
+    background-color: liner-gardient rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #eb7620;
+
+  }
+
+  .showcase-content h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+  }
+
+  .showcase-content p {
+    margin-left: auto;
+    margin: 50px 0px;
+    color: rgb(255, 255, 255);
+  }
+
+  .showcase-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(30vh);
+
+  }
+
+  .showcase-content .btn {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 60px;
+    font-weight: 600px;
+    letter-spacing: 2px;
+    text-transform: upercase;
+    transition: 0.5s all;
+  }
+
+  .showcase-content .btn:hover {
+    background: #eb7620;
+    border: 0;
+  }
+
+  /* About */
+  .about.about-image {
+    width: 45%;
+    float: left;
+  }
+
+  .about-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about.about-content {
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top: 60px;
+  }
+
+  .about.line {
+    width: 150px;
+    height: 6px;
+    margin-top: 50px;
+    background-color: #3333;
+  }
+
+  .about p {
+    margin-top: 50px;
+  }
+
+  .about ul {
+    margin-top: 50px;
+    list-style: none;
+  }
+
+  .about ul li {
+    margin: 10px 0;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <h2>TECHCITY</h2>
+        <uL>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </uL>
+      </nav>
+    </div>
+  </header>
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="showcase-content">
+      <h1>Building website and Mobile App for Boosting Your Business</h1>
+      <p>
+        It is estimated that 72% of people will use only mobile for internet browsing by 2025. This fast annual growth
+        has had a big impact in more ways than just one and it’s evident that the number of mobile applications in
+        today’s marketplace will significantly increase over the next three years.</p>
+      <a href="#" class="btn">Explore</a>
+    </div>
+  </section>
+  <!-- About section -->
+  <section class="about-mt"></section>
+  <div class="container">
+    <h2 class="m-b">ABOUT US</h2>
+    <div class="about-wrapper">
+      <div class="about-images"></div>
+      <img src="about.jpg" alt="office building">
+    </div>
+    <div class="about-content">
+      <h2>SPECIALISED IN WEBSITE DESIGN AND DEVELOPMENT.</h2>
+      <div class="line"></div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id earum, cum sapiente labore, beatae molestiae
+        nostrum dolorem similique, molestias ab quos repellendus! Nihil cupiditate dolor esse libero quo quos iste!</p>
+      <ul class="fa-ul">
+        <li>
+          <span class="fa-li"><i class="fas fa-circle-notch"></i></span>
+          providing you solution for all your software needs.
+        </li>
+        <li>
+          <span class="fa-li"><i class="fas fa-circle-notch"></i></span>
+          Mobile apps development.
+        </li>
+        <li>
+          <span class="fa-li"><i class="fas fa-circle-notch"></i></span>
+          wordpress development made easy.
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
